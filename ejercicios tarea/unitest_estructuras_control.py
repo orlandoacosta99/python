@@ -24,5 +24,11 @@ class pruebas(unittest.TestCase):
         self.assertEqual(Test.esDobledeunImpar(2.6),TypeError(str(num) + ' no es numero o entero'))
         self.assertEqual(Test.esDobledeunImpar('asd'), TypeError(str(num) + ' no es numero o entero'))
 
+    def test_numprimos(self):
+        self.assertEqual(Test.numprimos(7), 'si es primo')
+        self.assertEqual(Test.numprimos(4), 'no es primo')
+        self.assertEqual(Test.numprimos('as'), TypeError(str(num) + ' no es numero o entero'))
+        self.assertEqual(Test.numprimos(2.7), TypeError(str(num) + ' no es numero o entero'))
+
 if __name__ == 'main':
     unittest.main()

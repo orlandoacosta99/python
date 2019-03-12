@@ -109,3 +109,34 @@ def esDobledeunImpar(num):
 
     if (impar % 2) != 0:
          return str(num) + ' es doble de ' + str(int(impar)) + ', que es impar'
+
+    def numprimos(num):
+        """
+        num-> str
+        >>> numprimos(7)
+        'si es primo'
+        >>> numprimos(4)
+        'no es primo'
+        >>> numprimos('ad')
+        Traceback (most recent call last):
+        ..
+        TypeError: ad no es numero o entero
+        >>> numprimos(2.1)
+        Traceback (most recent call last):
+        ..
+        TypeError: 2.1 no es numero o entero
+
+        :param num:
+        :return:
+        """
+        if (type(num) != int):
+            raise TypeError(str(num) + ' no es numero o entero')
+        else:
+            x = 0
+            for i in range(1, num + 1):
+                if (num % i == 0):
+                    x = x + 1
+            if (x != 2):
+                return ('no es primo')
+            else:
+                return ('si es primo')
