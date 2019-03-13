@@ -140,3 +140,28 @@ def esDobledeunImpar(num):
                 return ('no es primo')
             else:
                 return ('si es primo')
+def dias(num):
+    """
+    num->str
+    
+    >>> dias (5)
+    :param num: 
+    :return: 
+    """
+    if (num <=7 and num>0 and num!=int):
+        
+        if num==7:
+            return ('domingo')
+        elif num==6:
+            return ('sabado')
+        elif num==5:
+            return ('viernes')
+        elif num==4:
+            return ('jueves')
+        elif num==3:
+            return ('miercoles')
+        elif num==2:
+            return ('martes')
+        elif num==1:
+            return ('lunes')
+    else:
