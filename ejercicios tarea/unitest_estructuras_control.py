@@ -25,11 +25,27 @@ class pruebas(unittest.TestCase):
         self.assertRaises(TypeError, lambda: Test.esDobledeunImpar(2.6))
         self.assertRaises(TypeError, lambda: Test.esDobledeunImpar('asd'))
 
+    def test_num_primos_if(self):
+        self.assertEqual(Test.num_primos_if(2), 'si es primo')
+        self.assertEqual(Test.num_primos_if(1), 'no es primo')
+        self.assertRaises(TypeError, lambda: Test.num_primos_if('as'))
+        self.assertRaises(TypeError, lambda: Test.num_primos_if(2.1))
+
     def test_numprimos(self):
         self.assertEqual(Test.numprimos(7), 'si es primo')
         self.assertEqual(Test.numprimos(4), 'no es primo')
         self.assertRaises(TypeError, lambda: Test.numprimos('as'))
         self.assertRaises(TypeError, lambda: Test.numprimos(2.7))
+
+    def test_Billetes(self):
+        self.assertEqual(Test.Billetes(432), None != True('2 billetes de 200 euros.+1 billetes de 20 euros.+1 billetes de 10 euros.+2 monedas de 2 euros.'))
+        self.assertRaises(TypeError, lambda: Test.Billetes('as'))
+
+    def test_dias(self):
+        self.assertEqual(Test.dias(5), 'viernes')
+        self.assertRaises(TypeError, lambda: Test.dias('as'))
+        self.assertEqual(Test.dias(8), 'debe ser mayor que 0 y menor que 8')
+
 
 if __name__ == 'main':
     unittest.main()
