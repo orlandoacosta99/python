@@ -110,33 +110,93 @@ def esDobledeunImpar(num):
     if (impar % 2) != 0:
          return str(num) + ' es doble de ' + str(int(impar)) + ', que es impar'
 
-    def numprimos(num):
-        """
-        num-> str
-        >>> numprimos(7)
-        'si es primo'
-        >>> numprimos(4)
-        'no es primo'
-        >>> numprimos('ad')
-        Traceback (most recent call last):
-        ..
-        TypeError: ad no es numero o entero
-        >>> numprimos(2.1)
-        Traceback (most recent call last):
-        ..
-        TypeError: 2.1 no es numero o entero
 
-        :param num:
-        :return:
-        """
-        if (type(num) != int):
-            raise TypeError(str(num) + ' no es numero o entero')
+def numprimos(num):
+
+    """
+    num-> str
+    >>> numprimos(7)
+    'si es primo'
+    >>> numprimos(4)
+    'no es primo'
+    >>> numprimos('ad')
+    Traceback (most recent call last):
+    ..
+    TypeError: ad no es numero o entero
+    >>> numprimos(2.1)
+    Traceback (most recent call last):
+    ..
+    TypeError: 2.1 no es numero o entero
+
+    :param num:
+    :return:
+    """
+
+    if (type(num) != int):
+        raise TypeError(str(num) + ' no es numero o entero')
+    else:
+        x = 0
+        for i in range(1, num + 1):
+            if (num % i == 0):
+                x = x + 1
+        if (x != 2):
+            return ('no es primo')
         else:
-            x = 0
-            for i in range(1, num + 1):
-                if (num % i == 0):
-                    x = x + 1
-            if (x != 2):
-                return ('no es primo')
-            else:
-                return ('si es primo')
+            return ('si es primo')
+
+def billetes(num):
+    """
+
+    >>> billetes(434)
+
+    :param num:
+    :return:
+    """
+    if ((num // 500)!=0):
+        mensaje =(num // 500)
+
+        return  mensaje,' billetes de 500 euros'
+
+        if (mensaje // 200)!=0:
+
+            mensaje =str((num // 200)+' billetes de 200 euros')
+
+            return mensaje
+
+        """
+          if // 20:
+                if // 10:
+                    if // 2:
+    """
+
+
+def dias(num):
+    """
+    num->str
+
+    >>> dias (5)
+    :param num:
+    :return:
+    """
+    if (num <=7 and num>0 and num!=int):
+
+        if num==7:
+            return ('domingo')
+        elif num==6:
+            return ('sabado')
+        elif num==5:
+            return ('viernes')
+        elif num==4:
+            return ('jueves')
+        elif num==3:
+            return ('miercoles')
+        elif num==2:
+            return ('martes')
+        elif num==1:
+            return ('lunes')
+    else:
+        print(num)
+
+
+
+
