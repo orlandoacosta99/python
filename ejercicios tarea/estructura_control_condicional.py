@@ -12,8 +12,8 @@ def esParentesis(caracter):
     ..
     TypeError: as no es parentesis
 
-    :param caracter:
-    :return:
+    :param caracter:se ingresa un caracter y valida si es parentesis
+    :return: un mensaje que informa al usuario si es parentesis o no
     '''
 
     esCaracter = len(caracter)
@@ -28,7 +28,7 @@ def esParentesis(caracter):
 
 def division(dividendo, divisor):
     '''
-    (num, num) -> num
+    (num, num) -> str or num
     >>> division(4, 2)
     2.0
     >>> division(15, 3)
@@ -46,9 +46,9 @@ def division(dividendo, divisor):
     ..
     TypeError: h no es numerico
 
-    :param divisor:
-    :param dividendo:
-    :return:
+    :param divisor: caracter numerico ingresado por el usuario que toma el dato de divisor
+    :param dividendo: caracter numerico ingresado por el usuario que toma el dato de divisor
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
     '''
 
     if (type(dividendo) != float  and type(dividendo) != int):
@@ -71,8 +71,8 @@ def impar_par(num):
     ..
     TypeError: as no es numerico
 
-    :param num:
-    :return:
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
     """
     if (type(num) != float  and type(num) != int):
         raise TypeError(str(num) + ' no es numerico')
@@ -97,8 +97,8 @@ def esDobledeunImpar(num):
     ..
     TypeError: asd no es numero o entero
 
-    :param mumero:
-    :return:
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return:retorna un mensaje el cual corresponda con los datos ingresados
     '''
 
 
@@ -109,10 +109,50 @@ def esDobledeunImpar(num):
 
     if (impar % 2) != 0:
          return str(num) + ' es doble de ' + str(int(impar)) + ', que es impar'
+def num_primos_if(num):
+    """
+    num->str
+    >>> num_primos_if(1)
+    'no es primo'
+    >>> num_primos_if(2)
+    'si es primo'
+    >>> num_primos_if('ad')
+    Traceback (most recent call last):
+    ..
+    TypeError: ad no es numero o entero
+    >>> num_primos_if(2.1)
+    Traceback (most recent call last):
+    ..
+    TypeError: 2.1 no es numero o entero
 
+<<<<<<< HEAD
 
 def numprimos(num):
 
+=======
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
+    """
+    a = 2
+    if (type(num) != int):
+        raise TypeError(str(num) + ' no es numero o entero')
+    elif (a != num) and (1 != num) and (9 != num):
+        if (num % a == 0):
+            a = a + 1
+    elif (num == 2):
+        a = a
+    elif (num == 1):
+        a = a + 1
+    elif (num == 9):
+        a = +1
+
+    if (a != 2):
+        return ('no es primo')
+    else:
+        return ('si es primo')
+
+def numprimos(num):
+>>>>>>> 925715ab2896208e615f06c90234429306e90291
     """
     num-> str
     >>> numprimos(7)
@@ -128,10 +168,16 @@ def numprimos(num):
     ..
     TypeError: 2.1 no es numero o entero
 
+<<<<<<< HEAD
     :param num:
     :return:
     """
 
+=======
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
+    """
+>>>>>>> 925715ab2896208e615f06c90234429306e90291
     if (type(num) != int):
         raise TypeError(str(num) + ' no es numero o entero')
     else:
@@ -144,6 +190,7 @@ def numprimos(num):
         else:
             return ('si es primo')
 
+<<<<<<< HEAD
 def billetes(num):
     """
 
@@ -168,12 +215,82 @@ def billetes(num):
                 if // 10:
                     if // 2:
     """
+=======
+def Billetes(num):
+    """
+    num -> str
+    >>> Billetes(434)
+    2 billetes de 200 euros.
+    1 billetes de 20 euros.
+    1 billetes de 10 euros.
+    2 monedas de 2 euros.
+
+    >>> Billetes('qw')
+    Traceback (most recent call last):
+    ..
+    TypeError: qw no es numero o entero
+
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
+    """
+    if (type(num) != int):
+        raise TypeError(str(num) + ' no es numero o entero')
+    else:
+        mensaje = ''
+
+        if (num // 500) != 0:
+            mensaje += str((num // 500)) + ' billetes de 500 euros.'
+            mensaje += '\n'
+            num = num - (num // 500) * 500
+
+        if (num // 200) != 0:
+            mensaje += str((num // 200)) + ' billetes de 200 euros.'
+            mensaje += '\n'
+            num = num - (num // 200) * 200
+
+        if (num // 100) != 0:
+            mensaje += str((num // 100)) + ' billetes de 100 euros.'
+            mensaje += '\n'
+            num = num - (num // 100) * 100
+
+        if (num // 50) != 0:
+            mensaje += str((num // 50)) + ' billetes de 50 euros.'
+            mensaje += '\n'
+            num = num - (num // 50) * 50
+
+        if (num // 20) != 0:
+            mensaje += str((num // 20)) + ' billetes de 20 euros.'
+            mensaje += '\n'
+            num = num - (num // 20) * 20
+
+        if (num // 10) != 0:
+            mensaje += str((num // 10)) + ' billetes de 10 euros.'
+            mensaje += '\n'
+            num = num - (num // 10) * 10
+
+        if (num // 5) != 0:
+            mensaje += str((num // 5)) + ' billetes de 5 euros.'
+            mensaje += '\n'
+            num = num - (num // 5) * 5
+
+        if (num // 2) != 0:
+            mensaje += str((num // 2)) + ' monedas de 2 euros.'
+            mensaje += '\n'
+            num = num - (num // 2) * 2
+
+        if (num // 1) != 0:
+            mensaje += str((num // 1)) + ' monedas de 1 euros.'
+            num = num - (num // 1) * 1
+
+        print('%s' % mensaje.rstrip('\n'))
+>>>>>>> 925715ab2896208e615f06c90234429306e90291
 
 
 def dias(num):
     """
     num->str
 
+<<<<<<< HEAD
     >>> dias (5)
     :param num:
     :return:
@@ -198,5 +315,40 @@ def dias(num):
         print(num)
 
 
+=======
+    >>> dias(5)
+    'viernes'
+    >>> dias('as')
+    Traceback (most recent call last):
+    ..
+    TypeError: as no es numero o entero
+    >>> dias(8)
+    'debe ser mayor que 0 y menor que 8'
+
+    :param num: caracter numerico ingresado por el usuario que toma el dato de num
+    :return: retorna un mensaje el cual corresponda con los datos ingresados
+    """
+    if (type(num) != int):
+        raise TypeError(str(num) + ' no es numero o entero')
+    else:
+        if (num <= 7 and num > 0 and num != int):
+
+            if num == 7:
+                return str('domingo')
+            elif num == 6:
+                return str('sabado')
+            elif num == 5:
+                return str('viernes')
+            elif num == 4:
+                return str('jueves')
+            elif num == 3:
+                return str('miercoles')
+            elif num == 2:
+                return str('martes')
+            elif num == 1:
+                return str('lunes')
+        else:
+            return 'debe ser mayor que 0 y menor que 8'
+>>>>>>> 925715ab2896208e615f06c90234429306e90291
 
 
