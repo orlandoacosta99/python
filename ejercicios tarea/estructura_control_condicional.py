@@ -125,11 +125,6 @@ def num_primos_if(num):
     ..
     TypeError: 2.1 no es numero o entero
 
-<<<<<<< HEAD
-
-def numprimos(num):
-
-=======
     :param num: caracter numerico ingresado por el usuario que toma el dato de num
     :return: retorna un mensaje el cual corresponda con los datos ingresados
     """
@@ -152,7 +147,6 @@ def numprimos(num):
         return ('si es primo')
 
 def numprimos(num):
->>>>>>> 925715ab2896208e615f06c90234429306e90291
     """
     num-> str
     >>> numprimos(7)
@@ -168,16 +162,9 @@ def numprimos(num):
     ..
     TypeError: 2.1 no es numero o entero
 
-<<<<<<< HEAD
-    :param num:
-    :return:
-    """
-
-=======
     :param num: caracter numerico ingresado por el usuario que toma el dato de num
     :return: retorna un mensaje el cual corresponda con los datos ingresados
     """
->>>>>>> 925715ab2896208e615f06c90234429306e90291
     if (type(num) != int):
         raise TypeError(str(num) + ' no es numero o entero')
     else:
@@ -190,32 +177,6 @@ def numprimos(num):
         else:
             return ('si es primo')
 
-<<<<<<< HEAD
-def billetes(num):
-    """
-
-    >>> billetes(434)
-
-    :param num:
-    :return:
-    """
-    if ((num // 500)!=0):
-        mensaje =(num // 500)
-
-        return  mensaje,' billetes de 500 euros'
-
-        if (mensaje // 200)!=0:
-
-            mensaje =str((num // 200)+' billetes de 200 euros')
-
-            return mensaje
-
-        """
-          if // 20:
-                if // 10:
-                    if // 2:
-    """
-=======
 def Billetes(num):
     """
     num -> str
@@ -224,7 +185,10 @@ def Billetes(num):
     1 billetes de 20 euros.
     1 billetes de 10 euros.
     2 monedas de 2 euros.
-
+    >>> Billetes(1.20)
+    Traceback (most recent call last):
+    ..
+    TypeError: 1.2 no es numero o entero
     >>> Billetes('qw')
     Traceback (most recent call last):
     ..
@@ -236,86 +200,52 @@ def Billetes(num):
     if (type(num) != int):
         raise TypeError(str(num) + ' no es numero o entero')
     else:
+        
         mensaje = ''
 
         if (num // 500) != 0:
-            mensaje += str((num // 500)) + ' billetes de 500 euros.'
-            mensaje += '\n'
+            mensaje += str((num // 500)) + ' billetes de 500 euros.\n'
             num = num - (num // 500) * 500
 
-        if (num // 200) != 0:
-            mensaje += str((num // 200)) + ' billetes de 200 euros.'
-            mensaje += '\n'
+        elif (num // 200) != 0:
+            mensaje += str((num // 200)) + ' billetes de 200 euros.\n'
             num = num - (num // 200) * 200
 
-        if (num // 100) != 0:
-            mensaje += str((num // 100)) + ' billetes de 100 euros.'
-            mensaje += '\n'
+        elif (num // 100) != 0:
+            mensaje += str((num // 100)) + ' billetes de 100 euros.\n'
             num = num - (num // 100) * 100
 
-        if (num // 50) != 0:
-            mensaje += str((num // 50)) + ' billetes de 50 euros.'
-            mensaje += '\n'
+        elif (num // 50) != 0:
+            mensaje += str((num // 50)) + ' billetes de 50 euros.\n'
             num = num - (num // 50) * 50
 
-        if (num // 20) != 0:
-            mensaje += str((num // 20)) + ' billetes de 20 euros.'
-            mensaje += '\n'
+        elif (num // 20) != 0:
+            mensaje += str((num // 20)) + ' billetes de 20 euros.\n'
             num = num - (num // 20) * 20
 
-        if (num // 10) != 0:
-            mensaje += str((num // 10)) + ' billetes de 10 euros.'
-            mensaje += '\n'
+        elif (num // 10) != 0:
+            mensaje += str((num // 10)) + ' billetes de 10 euros.\n'
             num = num - (num // 10) * 10
 
-        if (num // 5) != 0:
-            mensaje += str((num // 5)) + ' billetes de 5 euros.'
-            mensaje += '\n'
+        elif (num // 5) != 0:
+            mensaje += str((num // 5)) + ' billetes de 5 euros.\n'
             num = num - (num // 5) * 5
 
-        if (num // 2) != 0:
-            mensaje += str((num // 2)) + ' monedas de 2 euros.'
-            mensaje += '\n'
+        elif (num // 2) != 0:
+            mensaje += str((num // 2)) + ' monedas de 2 euros.\n'
             num = num - (num // 2) * 2
 
-        if (num // 1) != 0:
+        elif (num // 1) != 0:
             mensaje += str((num // 1)) + ' monedas de 1 euros.'
             num = num - (num // 1) * 1
 
         print('%s' % mensaje.rstrip('\n'))
->>>>>>> 925715ab2896208e615f06c90234429306e90291
 
 
 def dias(num):
     """
     num->str
 
-<<<<<<< HEAD
-    >>> dias (5)
-    :param num:
-    :return:
-    """
-    if (num <=7 and num>0 and num!=int):
-
-        if num==7:
-            return ('domingo')
-        elif num==6:
-            return ('sabado')
-        elif num==5:
-            return ('viernes')
-        elif num==4:
-            return ('jueves')
-        elif num==3:
-            return ('miercoles')
-        elif num==2:
-            return ('martes')
-        elif num==1:
-            return ('lunes')
-    else:
-        print(num)
-
-
-=======
     >>> dias(5)
     'viernes'
     >>> dias('as')
@@ -349,6 +279,4 @@ def dias(num):
                 return str('lunes')
         else:
             return 'debe ser mayor que 0 y menor que 8'
->>>>>>> 925715ab2896208e615f06c90234429306e90291
-
 
