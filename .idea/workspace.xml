@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bac94d-c1b9-4364-ad62-6432e3490cb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios 1/listas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,17 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejercicios 1/listas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +45,7 @@
         <option value="$PROJECT_DIR$/../pyt/funtions.py" />
         <option value="$PROJECT_DIR$/../pyt/unitest.py" />
         <option value="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" />
+        <option value="$PROJECT_DIR$/ejercicios 1/listas.py" />
       </list>
     </option>
   </component>
@@ -58,6 +67,11 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="ejercicios 1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -66,7 +80,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicios 1/listas.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -81,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in estructura_control_condicional">
+  <component name="RunManager" selected="Python tests.Doctests in listas">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +198,24 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in listas" type="tests" factoryName="Doctests" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios 1/listas.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for unitest.TestCalc.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +265,7 @@
       <item itemvalue="Python.funciones" />
       <item itemvalue="Python.funtions" />
       <item itemvalue="Python.unitesting" />
+      <item itemvalue="Python tests.Doctests in listas" />
       <item itemvalue="Python tests.Unittests in unitest_estructuras_control.py" />
       <item itemvalue="Python tests.Unittests in estructura_control_condicional.py" />
       <item itemvalue="Python tests.Doctests in estructura_control_condicional" />
@@ -261,35 +294,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 05m 53s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 04m 24s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 06m 33s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 05m 35s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 06m 38s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 23m 09s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 06m 45s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 24m 26s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 06m 52s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 26m 44s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 07m 20s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 10s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 11m 18s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 40s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 12m 07s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 58s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 12m 36s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 28m 09s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_estructura_control_condicional - 2019.03.12 at 19h 14m 05s.xml">
-      <configuration name="Doctests in estructura_control_condicional" configurationId="tests" />
+    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 28m 21s.xml">
+      <configuration name="Doctests in listas" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -303,19 +336,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.24980047" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,6 +409,13 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios 1/listas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
