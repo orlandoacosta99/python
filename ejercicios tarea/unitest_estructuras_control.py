@@ -38,7 +38,8 @@ class pruebas(unittest.TestCase):
         self.assertRaises(TypeError, lambda: Test.numprimos(2.7))
 
     def test_Billetes(self):
-        self.assertEqual(Test.Billetes(432), None != True('2 billetes de 200 euros.+1 billetes de 20 euros.+1 billetes de 10 euros.+2 monedas de 2 euros.'))
+        #self.assertEqual(Test.Billetes(432), None != True('2 billetes de 200 euros.+1 billetes de 20 euros.+1 billetes de 10 euros.+2 monedas de 2 euros.'))
+        self.assertRaises(TypeError, lambda: Test.Billetes(1.20))
         self.assertRaises(TypeError, lambda: Test.Billetes('as'))
 
     def test_dias(self):
