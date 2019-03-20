@@ -181,18 +181,18 @@ def Billetes(num):
     """
     num -> str
     >>> Billetes(434)
-    2 billetes de 200 euros
-    1 billetes de 20 euros
-    1 billetes de 10 euros
-    2 monedas de 2 euros
+    2 billetes de 200 euros.
+    1 billetes de 20 euros.
+    1 billetes de 10 euros.
+    2 monedas de 2 euros.
     >>> Billetes(638)
-    1 billetes de 500 euros
-    1 billetes de 100 euros
-    1 billetes de 20 euros
-    1 billetes de 10 euros
-    1 billetes de 5 euros
-    1 monedas de 2 euros
-    1 monedas de 1 euro
+    1 billetes de 500 euros.
+    1 billetes de 100 euros.
+    1 billetes de 20 euros.
+    1 billetes de 10 euros.
+    1 billetes de 5 euros.
+    1 monedas de 2 euros.
+    1 monedas de 1 euros.
     >>> Billetes(1.20)
     Traceback (most recent call last):
     ..
@@ -208,43 +208,43 @@ def Billetes(num):
     if (type(num) != int):
         raise TypeError(str(num) + ' no es numero o entero')
     else:
-
+        
         mensaje = ''
 
         if (num // 500) != 0:
-            mensaje += str((num // 500)) + ' billetes de 500 euros \n'
+            mensaje += str((num // 500)) + ' billetes de 500 euros.\n'
             num = num - (num // 500) * 500
 
         if (num // 200) != 0:
-            mensaje += str((num // 200)) + ' billetes de 200 euros \n'
+            mensaje += str((num // 200)) + ' billetes de 200 euros.\n'
             num = num - (num // 200) * 200
 
         if (num // 100) != 0:
-            mensaje += str((num // 100)) + ' billetes de 100 euros \n'
+            mensaje += str((num // 100)) + ' billetes de 100 euros.\n'
             num = num - (num // 100) * 100
 
         if (num // 50) != 0:
-            mensaje += str((num // 50)) + ' billetes de 50 euros \n'
+            mensaje += str((num // 50)) + ' billetes de 50 euros.\n'
             num = num - (num // 50) * 50
 
         if (num // 20) != 0:
-            mensaje += str((num // 20)) + ' billetes de 20 euros \n'
+            mensaje += str((num // 20)) + ' billetes de 20 euros.\n'
             num = num - (num // 20) * 20
 
         if (num // 10) != 0:
-            mensaje += str((num // 10)) + ' billetes de 10 euros \n'
+            mensaje += str((num // 10)) + ' billetes de 10 euros.\n'
             num = num - (num // 10) * 10
 
         if (num // 5) != 0:
-            mensaje += str((num // 5)) + ' billetes de 5 euros \n'
+            mensaje += str((num // 5)) + ' billetes de 5 euros.\n'
             num = num - (num // 5) * 5
 
         if (num // 2) != 0:
-            mensaje += str((num // 2)) + ' monedas de 2 euros \n'
+            mensaje += str((num // 2)) + ' monedas de 2 euros.\n'
             num = num - (num // 2) * 2
 
         if (num // 1) != 0:
-            mensaje += str((num // 1)) + ' monedas de 1 euros \n'
+            mensaje += str((num // 1)) + ' monedas de 1 euros.'
             num = num - (num // 1) * 1
 
         return print('%s' % mensaje.rstrip('\n'))
