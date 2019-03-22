@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bac94d-c1b9-4364-ad62-6432e3490cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ejercicios 1/listas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios 2/cadenas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejercicios 1/listas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejercicios 2/cadenas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,8 @@
         <option value="$PROJECT_DIR$/../pyt/unitest.py" />
         <option value="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" />
         <option value="$PROJECT_DIR$/ejercicios 1/listas.py" />
+        <option value="$PROJECT_DIR$/../ProgramacionEAN20191/Semana_8/listas.py" />
+        <option value="$PROJECT_DIR$/ejercicios 2/cadenas.py" />
       </list>
     </option>
   </component>
@@ -55,11 +69,13 @@
     <option name="width" value="1279" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,15 +88,23 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="ejercicios 1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
+              <item name="Semana_8" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ejercicios 1/listas.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProgramacionEAN20191" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -95,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in listas">
+  <component name="RunManager" selected="Python tests.Doctests in cadenas">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +202,24 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in cadenas" type="tests" factoryName="Doctests" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios 2/cadenas.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Doctests in estructura_control_condicional" type="tests" factoryName="Doctests" nameIsGenerated="true">
@@ -265,6 +307,7 @@
       <item itemvalue="Python.funciones" />
       <item itemvalue="Python.funtions" />
       <item itemvalue="Python.unitesting" />
+      <item itemvalue="Python tests.Doctests in cadenas" />
       <item itemvalue="Python tests.Doctests in listas" />
       <item itemvalue="Python tests.Unittests in unitest_estructuras_control.py" />
       <item itemvalue="Python tests.Unittests in estructura_control_condicional.py" />
@@ -294,35 +337,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 04m 24s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 37m 46s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 05m 35s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 39m 30s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 23m 09s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 47m 07s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 24m 26s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 47m 13s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 26m 44s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 50m 44s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 10s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 50m 51s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 40s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 18h 51m 21s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 27m 58s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 19h 06m 19s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 28m 09s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 19h 13m 31s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_listas - 2019.03.19 at 19h 28m 21s.xml">
-      <configuration name="Doctests in listas" configurationId="tests" />
+    <history-entry file="Doctests_in_cadenas - 2019.03.21 at 19h 25m 23s.xml">
+      <configuration name="Doctests in cadenas" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -395,13 +438,6 @@
     <entry file="file://$PROJECT_DIR$/area.py" />
     <entry file="file://$PROJECT_DIR$/funtions.py" />
     <entry file="file://$PROJECT_DIR$/unitest.py" />
-    <entry file="file://$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios tarea/unitest_estructuras_control.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -412,10 +448,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="198" column="40" lean-forward="true" selection-start-line="196" selection-start-column="3" selection-end-line="198" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios 1/listas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_8/listas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_8/listas 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_8/listas 4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_8/listas 3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios 2/cadenas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
         </state>
       </provider>
     </entry>
