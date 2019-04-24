@@ -81,9 +81,9 @@ def Producto_punto ():
 
 def Mayor_elemento():
 
-        vector = input('Indique el nombre del vector: ')
-        print('El vector ', vector, 'contiene', vectores[vector])
-        print('El mayor elemento del vector es: ', elemento_mayor(vectores[vector]))
+    vector = input('Indique el nombre del vector: ')
+    print('El vector ', vector, 'contiene', vectores[vector])
+    print('El mayor elemento del vector es: ', elemento_mayor(vectores[vector]))
 
 def Menor_elemento ():
 
@@ -98,11 +98,13 @@ def Promedio ():
     print('El promedio del vector es: ', prom(vectores[vector]))
 
 def Desviacion_estandar():
+
     vector = input('Indique el nombre del vector: ')
     print('El vector ', vector, 'contiene', vectores[vector])
     print('La desviacion estandar del vector es: ', desviacion_est(vectores[vector]))
 
 def Comparar ():
+
     vector = input('Indique el nombre del vector: ')
     print('El vector ', vector, 'contiene', vectores[vector])
     print('El mayor elemento del vector es: ', elemento_mayor(vectores[vector]))
@@ -110,12 +112,14 @@ def Comparar ():
     print('El elemento igual del vector es: ', elemento_igual(vectores[vector]))
 
 def Norma ():
+
     vector = input('Indique el nombre del vector: ')
     print('El vector ', vector, 'contiene', vectores[vector])
     print('La norma del vector es: ', Norma_vec(vectores[vector]))
 
 
 def Moda():
+
     vector = input('Indique el nombre del vector: ')
     print('El vector ', vector, 'contiene', vectores[vector])
     print('La moda del vector es: ', Moda_vec(vectores[vector]))
@@ -182,9 +186,6 @@ def principal():
 
         elif opcion == '12':
             Moda()
-
-        elif opcion == '13':
-            Media()
 
         else:
             print('Seleccione una opcion valida')

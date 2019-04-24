@@ -18,7 +18,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(Test.producto_puntos([2, 1, 2], [2, 4, 1]), 10)
 
     def test_elemento_mayor(self):
-        self.assertEqual(Test.elemento_mayor([-2, 4, 1]), 4)
+        self.assertEqual(Test.elemento_mayor([2, 4, 1]), 4)
         self.assertEqual(Test.elemento_mayor([8, 5, 2]), 8)
         self.assertEqual(Test.elemento_mayor([9, 6, 3, 12]), 12)
 
@@ -46,6 +46,12 @@ class TestCalc(unittest.TestCase):
     def test_Norma_vec(self):
         self.assertEqual(Test.Norma_vec([2, 4, 1, 5]), 6.782329983125268)
         self.assertEqual(Test.Norma_vec([2, 3, 2, 1]), 4.242640687119285)
+        self.assertEqual(Test.Norma_vec([1, -3, 5, 2, 2]), 6.557438524302)
+
+    def test_Moda_vec(self):
+        self.assertEqual(Test.Moda_vec([1, 2, 5, 2, 1, 3, 1]), [1])
+        self.assertEqual(Test.Moda_vec([2, 1, 2, 2, 5, 3, 3, 1]), [2])
+        self.assertEqual(Test.Moda_vec([1, 2, 3, 4, 5, 2, 4, 3]), [2, 3, 4])
 
 if __name__ == '__main__':
     unittest.main()
