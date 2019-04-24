@@ -108,21 +108,19 @@ def Comparar ():
     print('El mayor elemento del vector es: ', elemento_mayor(vectores[vector]))
     print('El menor elemento del vector es: ', elemento_menor(vectores[vector]))
     print('El elemento igual del vector es: ', elemento_igual(vectores[vector]))
-# def Norma ():
-#     vector = input('Indique el nombre del vector: ')
-#     print('El vector ', vector, 'contiene', vectores[vector])
-#     print('La normaa del vector es: ', Norma_vec(vectores[vector]))
-#
+
+def Norma ():
+    vector = input('Indique el nombre del vector: ')
+    print('El vector ', vector, 'contiene', vectores[vector])
+    print('La norma del vector es: ', Norma_vec(vectores[vector]))
+
 
 def Moda():
     vector = input('Indique el nombre del vector: ')
     print('El vector ', vector, 'contiene', vectores[vector])
     print('La moda del vector es: ', Moda_vec(vectores[vector]))
 
-def Media():
-    vector = input('Indique el nombre del vector: ')
-    print('El vector ', vector, 'contiene', vectores[vector])
-    print('La media del vector es: ', Media_vec(vectores[vector]))
+
 
 def principal():
 
@@ -138,9 +136,8 @@ def principal():
     8. Promedio
     9. Desviación estandar
     10. Comparar
-    11.# Norma
+    11. Norma
     12. Moda del vector
-    13. Media del vector
     '''
 
     while True:
@@ -180,8 +177,8 @@ def principal():
         elif opcion == '10':
             Comparar()
 
-        # elif opcion == '11':
-        #     Norma()
+        elif opcion == '11':
+            Norma()
 
         elif opcion == '12':
             Moda()

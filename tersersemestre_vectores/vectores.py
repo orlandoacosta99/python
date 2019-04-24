@@ -1,5 +1,5 @@
 import statistics
-
+import math
 
 def producto_escalar(escalar, vector):
     """
@@ -90,11 +90,9 @@ def desviacion_est(nvector):
 
 def elemento_igual(nvector):
     repetido = []
-
     unico = []
 
     for i in nvector:
-
         if i not in unico:
             unico.append(i)
             resultado=('no hay elementos repetidos')
@@ -105,9 +103,20 @@ def elemento_igual(nvector):
 
     return resultado
 
-# def Norma_vec(nvector):
+def Norma_vec(nvector):
+    añadido = []
+    contador = 0
 
-   # return (nvector)
+    while (contador < len(nvector)):
+        añadido.append((nvector[contador])**2 )
+        contador += 1
+    Suma = 0
+
+    for i in añadido:
+        Suma = Suma + i
+
+    resultado_norma = math.sqrt(Suma)
+    return resultado_norma
 
 def Moda_vec(nvector):
     repeticiones = 0
@@ -125,5 +134,3 @@ def Moda_vec(nvector):
 
     return modas
 
-def Media_vec(nvector):
-    return statistics.median(nvector)
