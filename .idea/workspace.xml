@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bac94d-c1b9-4364-ad62-6432e3490cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clase de matrices/funcion_matris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clase de matrices/matrices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProgramacionEAN20191/.idea/ProgramacionEAN20191.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgramacionEAN20191/.idea/ProgramacionEAN20191.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tersersemestre_vectores/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/tersersemestre_vectores/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tersersemestre_vectores/vectores.py" beforeDir="false" afterPath="$PROJECT_DIR$/tersersemestre_vectores/vectores.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,34 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/menu.py">
+        <entry file="file://$PROJECT_DIR$/clase de matrices/matrices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="177" column="22" lean-forward="true" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/vectores.py">
+        <entry file="file://$PROJECT_DIR$/clase de matrices/funcion_matris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/test_vectores.py">
+        <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_10/menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -62,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ProgramacionEAN20191" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,10 +76,12 @@
         <option value="$PROJECT_DIR$/tersersemestre_vectores/menu.py" />
         <option value="$PROJECT_DIR$/tersersemestre_vectores/vectores.py" />
         <option value="$PROJECT_DIR$/tersersemestre_vectores/test_vectores.py" />
+        <option value="$PROJECT_DIR$/clase de matrices/matrices.py" />
+        <option value="$PROJECT_DIR$/clase de matrices/funcion_matris.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="526" />
     <option name="y" value="91" />
     <option name="width" value="1269" />
@@ -101,7 +98,16 @@
           <expand>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
+              <item name="Semana_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,7 +118,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tersersemestre_vectores/test_vectores.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clase de matrices/funcion_matris.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -127,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_vectores.py">
+  <component name="RunManager" selected="Python tests.Doctests in funcion_matris">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,19 +155,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="matrices" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clase de matrices" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/funciones.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clase de matrices/matrices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,146 +176,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="funtions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pyt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pyt/funtions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Doctests in funcion_matris" type="tests" factoryName="Doctests" nameIsGenerated="true">
       <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tersersemestre_vectores" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tersersemestre_vectores/menu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="unitesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitesting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="vectores" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segunda class terser" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segunda class terser/vectores.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in cadenas" type="tests" factoryName="Doctests" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios 2/cadenas.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in estructura_control_condicional" type="tests" factoryName="Doctests" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in listas" type="tests" factoryName="Doctests" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios 1/listas.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in vectores" type="tests" factoryName="Doctests" nameIsGenerated="true">
-      <module name="ProgramacionEAN20191" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="/usr/bin/python3.6" />
@@ -317,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segunda class terser/vectores.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clase de matrices/funcion_matris.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -341,72 +209,14 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in estructura_control_condicional.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ejercicios tarea/estructura_control_condicional.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_vectores.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="ProgramacionEAN20191" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tersersemestre_vectores/test_vectores.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in unitest_estructuras_control.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../conditions/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ejercicios tarea/unitest_estructuras_control.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.vectores" />
-      <item itemvalue="Python.menu" />
-      <item itemvalue="Python.funciones" />
-      <item itemvalue="Python.funtions" />
-      <item itemvalue="Python.unitesting" />
-      <item itemvalue="Python tests.Unittests in test_vectores.py" />
-      <item itemvalue="Python tests.Doctests in cadenas" />
-      <item itemvalue="Python tests.Doctests in vectores" />
-      <item itemvalue="Python tests.Doctests in listas" />
-      <item itemvalue="Python tests.Unittests in unitest_estructuras_control.py" />
-      <item itemvalue="Python tests.Unittests in estructura_control_condicional.py" />
-      <item itemvalue="Python tests.Doctests in estructura_control_condicional" />
+      <item itemvalue="Python.matrices" />
+      <item itemvalue="Python tests.Doctests in funcion_matris" />
       <item itemvalue="Python tests.Unittests for unitest.TestCalc.test_add" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for unitest.TestCalc.test_add" />
-        <item itemvalue="Python.funtions" />
-        <item itemvalue="Python.unitesting" />
-        <item itemvalue="Python.funciones" />
       </list>
     </recent_temporary>
   </component>
@@ -424,35 +234,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 27m 16s.xml">
+    <history-entry file="Unittests_in_test_vectores_py - 2019.04.30 at 18h 30m 36s.xml">
       <configuration name="Unittests in test_vectores.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 30m 08s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 18h 56m 43s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 30m 40s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 10m 57s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 30m 59s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 11m 01s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 31m 35s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 12m 08s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 31m 47s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 14m 28s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 32m 27s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 17m 31s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 32m 39s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 18m 56s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 33m 57s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 22m 35s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_vectores_py - 2019.04.23 at 19h 34m 10s.xml">
-      <configuration name="Unittests in test_vectores.py" configurationId="tests" />
+    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 29m 53s.xml">
+      <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -466,20 +276,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.24972677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.24980047" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.3822894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286638" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -566,13 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segunda class terser/vectores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="68" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/segunda class terser/vectores.py" />
     <entry file="file://$PROJECT_DIR$/ejercicios 1/funtions.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,26 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/test_producto_escalar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="177" column="22" lean-forward="true" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/test_producto_escalar.py" />
+    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/__init__.py" />
     <entry file="file://$PROJECT_DIR$/ejercicios tarea/unitest_estructuras_control.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -618,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/vectores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="1406">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -628,11 +413,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/test_vectores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        <state relative-caret-position="446">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_10/vectores.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tersersemestre_vectores/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clase de matrices/matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clase de matrices/funcion_matris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/Semana_10/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
         </state>
       </provider>
     </entry>
