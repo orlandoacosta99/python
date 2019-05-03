@@ -1,52 +1,53 @@
-from tersersemestre_vectores.menu import ingresar_vector
+from Semana_10.menu import ingresar_vector
+import uso_archivos
 
-matrices={}
+matrices = {}
+
+matrices = uso_archivos.leer('matrices.json')
 
 def leer_matriz():
     """
     leer una matriz por teclado
     :return:
     """
-    resultado=[]
-
+    resultado = []
     while True:
-        entrada = input('desea ingresar una fila s/n:  ')
+        entrada = input('Desea ingresar una fila? s/n ')
         if entrada == 'n':
             break
         resultado.append(ingresar_vector()[1:])
-        return resultado
-
-    matriz = leer_matriz()
-    print(matriz)
-
+    return resultado
 
 while True:
 
-    Menu = """ 
-    ******* Menu *******
+
+    MENU = """
+    **********Menu**********
     0. Salir
     1. Ingresar Matriz
     2. Ver Matrices
-    ********************
+    ************************
     """
-    seleccion = input(Menu)
-    if seleccion == "0":
-        print('Gracias')
+
+    seleccion = input(MENU)
+    if seleccion == '0':
+        print('Suerte')
+        uso_archivos.guardar('Matrices.json', matrices)
+
         break
     elif seleccion == "1":
-        nombre= input('cual es el nombre de su matriz: ')
+        nombre = input('cual es el nombre de su matriz ')
         matriz = leer_matriz()
         matrices[nombre] = matriz
 
     elif seleccion == "2":
-        print('Sus matrices son: ')
+        print('Sus matrices')
         for matriz in matrices:
             print(matriz, "=")
             print(matrices[matriz])
 
     elif seleccion == "3":
         print('Sus matrices cuatrada es: ')
-
 
     elif seleccion == "4":
         print('guardar matriz en un archivo plano : ')

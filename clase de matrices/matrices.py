@@ -1,18 +1,27 @@
-matriz=[[1,2,3],
-       [2,3,4],
-       [5,4,6]]
-# print(matriz)
+matrix = [[1,2,3],
+          [2,3,3],
+          [5,4,6]]
 
-# for recorrer in matriz:
-#     print(recorrer)
+# Podemos ver toda la matriz
+# print(matrix)
 
-# for fila in matriz:
-    # for elemento in fila:
-    #     print (elemento)
+# Podemos recorrerla por filas
+# for fila in matrix:
+#     print(fila)
 
-# for x in range(len(matriz)):
-#     print (matriz[x])
+# Podemos recorrerla por elementos
+for fila in matrix:
+    for elemento in fila:
+        print(elemento)
 
-for x in range(len(matriz)):
-    for y in range(len(matriz[x])):
-        print(matriz[x][y])
+# Para obtener un elemento dado su indice
+# print(matrix[0][2])
+
+# Recorramos las filas por indices
+# for i in range(len(matrix)):
+#     print(matrix[i])
+
+# Recorrer por indices cada elemento
+for i in range(len(matrix)):
+    for j in range(len(matrix[i])):
+        print(matrix[i][j])
