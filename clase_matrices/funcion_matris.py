@@ -1,9 +1,8 @@
 from Semana_10.menu import ingresar_vector
-import uso_archivos
+from clase_matrices  import uso_archivos
 
-matrices = {}
 
-matrices = uso_archivos.leer('matrices.json')
+matrices = uso_archivos.leer('Matrices.json')
 
 def leer_matriz():
     """
@@ -38,7 +37,7 @@ while True:
     elif seleccion == "1":
         nombre = input('cual es el nombre de su matriz ')
         matriz = leer_matriz()
-        matrices[nombre] = matriz
+        matrices[nombre[0]] = matriz
 
     elif seleccion == "2":
         print('Sus matrices')
