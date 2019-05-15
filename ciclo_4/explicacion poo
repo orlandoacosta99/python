@@ -1,0 +1,32 @@
+ejemplo
+
+clase
+casa
+
+atributos
+dirreccion: int
+puertas: int
+ventanas: int
+piso: str
+techo: str
+
+matodos
+pintar: (str) bool
+remodelar: (str) bool
+visitar:
+
+
+clase
+Punto
+
+atributos
+x: int
+y: int
+
+metodos
+__eq__(self, other): bool
+desplazar_x(self, int): Punto
+desplazar_y(self, int): Punto
+hallar_pendiente(self, other) float
+
+
