@@ -16,7 +16,7 @@ class Casa:
 
         return self.num_banos == other.num_banos and self.num_abitaciones == other.num_abitaciones
 
-
+import math
 
 class Punto:
 
@@ -33,12 +33,18 @@ class Punto:
 
         return self.x == other.x and self.y == other.y
 
-    def desplazar_x(self.x):
-        return f''
+    def desplazarX(self, x):
+        return Punto(self.x + x, self.y)
 
-    #
-    # def desplazar_y(self.y):
-    #     return f''
-    #
-    # def hallar_pendiente(self.other):
-    #     return f''
+    def desplazarY(self, y):
+        return Punto(self.x, self.y + y)
+
+    def hallar_pendiente(self, other):
+        return (self.y - other.y) / (self.x - other.x)
+
+    def hallar_distancia(self, other):
+        return math.sqrt(((self.y - other.y)**2) + ((self.x - other.x)**2))
+
+    def __repr__(self):
+        return f'El punto esta {self.x, self.y}'
+

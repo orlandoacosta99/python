@@ -11,3 +11,10 @@ if punto1 == punto2:
 else:
     print('los puntos son diferentes')
 
+print(punto1.desplazarX(5))
+
+print(punto1.desplazarY(2))
+
+print('la pendiente de los puntos es', Punto.hallar_pendiente(punto1, punto2))
+
+print('la pendiente de los puntos es', Punto.hallar_distancia(punto1, punto2))

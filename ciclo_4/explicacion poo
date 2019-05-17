@@ -28,5 +28,77 @@ __eq__(self, other): bool
 desplazar_x(self, int): Punto
 desplazar_y(self, int): Punto
 hallar_pendiente(self, other) float
+____________________________________/////////////////////////////____________________________
+
+clase
+atributos
+color: hexa
+raza: str
+num_patas:str
+
+atributos
+correr
+saltar
+comer
+dormir
+
+___________________________________________________
+
+clase Padre
+vehiculo
+
+atributos
+n_ruedas
+placa
+color
+
+atributos
+
+moverse
+reversa
+encender
+frenar
+
+
+clase hija
+moto
+
+atributos
+n_ruedas=2
+
+metodo
+rebersa()
+
+clase hija
+carro
+
+atributos
+n_ruedas=4
+cinturon
+
+metodo
+
+clase
+taxi
+
+atributos
+color=amarillo
+taximetro
+
+metodo
+cobrar
+iniciar_viaje
+
+clase
+Taximetro
+
+atributos
+cuenta
+estado
+
+metodo
+reiniciar
+
+
 
 
