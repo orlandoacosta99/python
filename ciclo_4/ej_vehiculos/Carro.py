@@ -1,4 +1,4 @@
-from ciclo_4.vehiculo import Vehiculo
+from ciclo_4.ej_vehiculos.Vehiculo import Vehiculo
 
 class Carro(Vehiculo):
 
@@ -9,10 +9,10 @@ class Carro(Vehiculo):
         if self.encendido:
             return f'Moviendose {distancia}'
         else:
-            raise Exception('el carro no esta encendico')
+            raise Exception('El carro no está encendido')
 
-    def reversa(self, disancia):
-        super().reversa()
+    def reversa(self, distancia):
+        super().reversa(distancia)
 
     def encender(self):
         return super().encender()

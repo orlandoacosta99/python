@@ -1,9 +1,10 @@
 class Vehiculo:
 
-
     n_ruedas = 0
     placa = ''
     color = ''
+    encendido = False
+
 
     def __init__(self, n_ruedas, placa, color):
         self.n_ruedas = n_ruedas
@@ -19,8 +20,9 @@ class Vehiculo:
 
     def encender(self):
         """
+        Enciende el vehiculo si este se encuentra apagado de lo contrario lo apaga
 
-        :return:
+        :return: El estado del vehiculo
         """
         if self.encendido:
             self.encendido = False
