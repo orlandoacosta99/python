@@ -1,3 +1,5 @@
+from ensalada import Ensalada
+from jugo import Jugo
 
 class Frutiadero:
     tipo = ''
@@ -19,3 +21,5 @@ class Frutiadero:
 
         elif tipo == 'jugo':
             return Jugo.preparar(ingredientes)
+        else:
+            return ValueError('No hay este tipo de preparacion')
