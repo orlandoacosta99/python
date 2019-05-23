@@ -4,12 +4,22 @@ class Instrumentos:
     melodia_armonica = ''
     afinacion = ''
     tipo_instrumento = ''
+    n_instrumentos = 0
 
     def __init__(self, nombre_instrumento, afinacion, melodia_armonica, tipo_instrumento):
         self.nombre_instrumento = nombre_instrumento
         self.afinacion = afinacion
         self.melodia_armonica = melodia_armonica
         self.tipo_instrumento = tipo_instrumento
+
+    def cantidad(self, n_instrumentos):
+
+        self.n_instrumentos = n_instrumentos
+
+        if n_instrumentos < 0:
+            raise ValueError('el numero de instrumentos es negativo')
+
+        return self.n_instrumentos
 
     def tipo_instrumento(self, cuerdas, percusion):
 
@@ -39,7 +49,7 @@ class Instrumentos:
         #         nom = str(input('ingrese nombre de la cuerda'))
         #         esc_afinacion.append(nom)
 
-        return f'{self.nombre_instrumento} tiene {n_cuerdas} cuerdas y estan afinadas en {esc_afinacion} respectivamente'
+        return f'el instrumento {self.nombre_instrumento} tiene {n_cuerdas} cuerdas y estan afinadas en {esc_afinacion}'
 
     def percusion(self, diametro, frecuencia):
         self.diametro = diametro
@@ -47,4 +57,5 @@ class Instrumentos:
 
         if diametro < 0 or frecuencia < 0:
             raise ValueError('No hay diametros ni frecuencias negativas')
-        return f'el instrumento {self.nombre_instrumento} tiene un diametro de {diametro} cm y una frecuencia de vibracion de {frecuencia} Hz'
+
+        return f'el instrumento {self.nombre_instrumento} tiene un diametro de {diametro} cm y una frecuencia de vibracion es de {frecuencia} hz'

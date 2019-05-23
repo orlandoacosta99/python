@@ -12,8 +12,10 @@ class TestFrutras(TestCase):
         self.assertRaises(ValueError, dado.pelar)
 
     def test_cortar(self):
-        dado= Frutas(5)
-        espero = ()
+        dado = Frutas('papaya', 1000)
+        espero = 130
+        real = dado.cortar(1)
+        self.assertEqual(espero, real)
 
 
     def test_licuar(self):
