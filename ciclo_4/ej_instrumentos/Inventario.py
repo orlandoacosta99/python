@@ -43,7 +43,7 @@ class Instrumentos:
         # esc_afinacion = []
 
         if n_cuerdas < 0:
-            raise ValueError('No hay cuerdas negativas')
+            raise ValueError(f'el {self.nombre_instrumento} no puede tener cuerdas negativas')
         # else:
         #     for x in range(1, len(n_cuerdas)):
         #         nom = str(input('ingrese nombre de la cuerda'))

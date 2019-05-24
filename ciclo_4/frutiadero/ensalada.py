@@ -1,11 +1,10 @@
 from frutas import Frutas
-from frutiadero import Frutiadero
 
 class Ensalada:
     nombre = ''
     tamano = ''
     ingredientes = ''
-    crema = 0
+    crema = False
 
 
     def __init__(self, nombre, tamano, ingredientes, crema ):

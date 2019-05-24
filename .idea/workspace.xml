@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bac94d-c1b9-4364-ad62-6432e3490cb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/test_ensalada.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/test_jugo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgramacionEAN20191/.idea/ProgramacionEAN20191.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgramacionEAN20191/.idea/ProgramacionEAN20191.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgramacionEAN20191/semana_17/test_fruta.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgramacionEAN20191/semana_17/test_fruta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ciclo_4/tipos_objetos/Dummy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadeto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciclo_4/ej_instrumentos/Inventario.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo_4/ej_instrumentos/Inventario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +21,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ciclo_4/tipos_objetos/Dummy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_ensalada.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -37,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -47,37 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_ensalada.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_jugo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -122,15 +118,15 @@
         <option value="$PROJECT_DIR$/ciclo_4/Carro.py" />
         <option value="$PROJECT_DIR$/ciclo_4/explicacion poo" />
         <option value="$PROJECT_DIR$/ciclo_4/poo.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutas+.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/test_frutras.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutas.py" />
         <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadeto.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutas+.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutas.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/test_frutras.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/ej_instrumentos/Inventario.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/tipos_objetos/Dummy.py" />
         <option value="$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py" />
+        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py" />
         <option value="$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/test_ensalada.py" />
-        <option value="$PROJECT_DIR$/ciclo_4/frutiadero/test_jugo.py" />
       </list>
     </option>
   </component>
@@ -146,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,26 +158,30 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="ciclo_4" type="462c0819:PsiDirectoryNode" />
+              <item name="ej_instrumentos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="ciclo_4" type="462c0819:PsiDirectoryNode" />
               <item name="frutiadero" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProgramacionEAN20191" type="462c0819:PsiDirectoryNode" />
-              <item name="semana_17" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="ciclo_4" type="462c0819:PsiDirectoryNode" />
+              <item name="tipos_objetos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Descargas/2158089-5f3d0003801acfe1a29c4b24f2c8975efacf6f66" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -336,15 +335,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 11m 01s.xml">
-      <configuration name="Doctests in funcion_matris" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 12m 08s.xml">
-      <configuration name="Doctests in funcion_matris" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 14m 28s.xml">
-      <configuration name="Doctests in funcion_matris" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctests_in_funcion_matris - 2019.04.30 at 19h 17m 31s.xml">
       <configuration name="Doctests in funcion_matris" configurationId="tests" />
     </history-entry>
@@ -366,6 +356,15 @@
     <history-entry file="Unittests_in_test_frutras_py - 2019.05.21 at 19h 21m 39s.xml">
       <configuration name="Unittests in test_frutras.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_frutras_py - 2019.05.21 at 19h 30m 21s.xml">
+      <configuration name="Unittests in test_frutras.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_frutras_py - 2019.05.21 at 19h 31m 09s.xml">
+      <configuration name="Unittests in test_frutras.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_frutras_py - 2019.05.21 at 19h 33m 59s.xml">
+      <configuration name="Unittests in test_frutras.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,10 +376,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="25" width="1311" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.25375494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.24980047" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -391,7 +390,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3257329" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3265086" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -401,18 +400,18 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.25375494" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50242716" side_tool="true" weight="0.24980047" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.3822894" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.3822894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3257329" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32721382" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -423,6 +422,8 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../pyt/funtions.py" />
+    <entry file="file://$PROJECT_DIR$/../pyt/unitest.py" />
     <entry file="file://$PROJECT_DIR$/area.py" />
     <entry file="file://$PROJECT_DIR$/funtions.py" />
     <entry file="file://$PROJECT_DIR$/unitest.py" />
@@ -586,76 +587,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ciclo_4/poo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/ej_vehiculos/test_vehiculo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ciclo_4/ej_instrumentos/Diagrama1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/semana_17/frutiadero.dia">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_frutras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/semana_17/Fruta.py">
+    <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutiadeto.py" />
+    <entry file="file://$PROJECT_DIR$/ciclo_4/poo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ciclo_4/ej_instrumentos/Inventario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ciclo_4/ej_instrumentos/instrumento.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutiadeto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ProgramacionEAN20191/semana_17/frutiadero.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/ciclo_4/tipos_objetos/Dummy.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/ensalada.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -664,22 +647,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_ensalada.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/frutiadero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/jugo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ciclo_4/frutiadero/test_jugo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>

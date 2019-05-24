@@ -1,11 +1,10 @@
 from frutas import Frutas
-from frutiadero import Frutiadero
 
 class Jugo:
     nombre = ''
     tamano = ''
     ingredientes = ''
-    azucar = 0
+    azucar = False
     nivel_agua = 0
 
     def __init__(self, nombre, tamano, ingredientes, azucar, nivel_agua):
@@ -16,4 +15,7 @@ class Jugo:
         self.nivel_agua = nivel_agua
 
     def preparar(self, nombre, tamano, ingredientes, azucar, porcentajeagua):
+
+
+
 
