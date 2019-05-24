@@ -9,14 +9,19 @@ class Instrumentos:
         self.tipo_instrumento = tipo_instrumento
         self.n_instrumentos = n_instrumentos
 
-    def clas_instrumento(self):
+    afinacion = ''
+    melodia = ''
+    def clas_instrumento(self, afinacion, melodia):
+        self.afinacion = afinacion
+        self.melodia = melodia
+
 
         if (self.tipo_instrumento == 'cuerdas'):
-            return f'el instrumento {self.nombre_instrumento} es de {self.tipo_instrumento}'
+            return f'el instrumento {self.nombre_instrumento} es de {self.tipo_instrumento}, tiene afinacion {self.afinacion} y melodia {self.melodia}'
 
         elif (self.tipo_instrumento == 'percusion'):
 
-            return f'el instrumento {self.nombre_instrumento} es de {self.tipo_instrumento}'
+            return f'el instrumento {self.nombre_instrumento} es de {self.tipo_instrumento} y tiene melodia {self.melodia}'
         else:
 
             raise ValueError('No se encuentra el tipo de instrumento')
@@ -42,7 +47,7 @@ class Cuerdas(Instrumentos):
 
 class Percusion(Instrumentos):
     diametro = 0
-    frecuuencia = 0
+    frecuencia = 0
 
     def percusion(self, diametro, frecuencia):
 

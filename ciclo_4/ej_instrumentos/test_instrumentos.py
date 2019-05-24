@@ -6,18 +6,18 @@ from Inventario import Percusion
 class TestInstrumentos(TestCase):
     def test_clas_instrumento(self):
         dado = Instrumentos('Violonchelo', 'cuerdas', 4)
-        espero = 'el instrumento Violonchelo es de cuerdas'
-        recibo = dado.clas_instrumento()
+        espero = 'el instrumento Violonchelo es de cuerdas, tiene afinacion fa y melodia jazz'
+        recibo = dado.clas_instrumento('fa', 'jazz')
         self.assertEqual(espero, recibo)
 
 
         dado = Instrumentos('bombo', 'percusion', 5)
-        espero = 'el instrumento bombo es de percusion'
-        recibo = dado.clas_instrumento()
+        espero = 'el instrumento bombo es de percusion y tiene melodia clasica'
+        recibo = dado.clas_instrumento('', 'clasica')
         self.assertEqual(espero, recibo)
 
         dado = Instrumentos('trompeta', 'aire', 5)
-        self.assertRaises(ValueError, dado.clas_instrumento)
+        self.assertRaises(ValueError, dado.clas_instrumento, 'jazz', 'sol')
 
     def test_cantidad(self):
 
