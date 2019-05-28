@@ -42,6 +42,9 @@ class Frutas:
 
         elif cantidad_usar <= 0 or self.pelada:
             raise ValueError('No tiene frutas para cortar')
+        else:
+            raise ValueError('No tiene frutas para cortar')
+
 
 
 
@@ -60,6 +63,8 @@ class Frutas:
         elif not self.pelada and self.cortar and cantidad_usar > 0 and self.sabor == 'papaya':
             return cantidad_usar * 2200
 
-        elif self.pelada or cantidad_usar <= 0:
+        elif self.pelada or cantidad_usar <= 0 or self.sabor == 'papaya':
             raise ValueError('No se puede hacer jugo')
 
+        else:
+            raise ValueError('No se puede hacer jugo')
